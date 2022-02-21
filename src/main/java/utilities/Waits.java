@@ -1,0 +1,13 @@
+package utilities;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Waits extends WebDriverWait{
+
+	public Waits(WebDriver driver, long timeOutInSeconds) {
+		super(driver, timeOutInSeconds);
+	}
+	
+	//TODO Implementation
+}
